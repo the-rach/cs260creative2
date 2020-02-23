@@ -1,0 +1,77 @@
+body {
+    background-color: #b0c4de;
+    color: darkslategrey;
+    /*font-family: "Nyla", serif;*/
+    font-family: "Marker Felt", serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    /*font-family: Marion, serif;*/
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: center;
+}
+
+
+.form {
+     margin: 35px;
+     /*font-family: Marion, serif;*/
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+ }
+
+.allJokeResults  {
+    margin: 20px;
+    /*padding: 15px;*/
+    text-align: center;
+    /*font-family: Gill Sans, sans-serif;*/
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    /*border-style: double;*/
+}
+
+#chuck-image img { /*needs to go on image and not div*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 100px;*/
+    /*width: 50%;*/
+    padding: 10px;
+    display: block;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+
+}
+
+#jokesBorder {
+    border-style: ridge;
+    border-top: lightgrey;
+    border-right: lightgrey;
+    border-left: lightgrey;
+    align-content: center;
+}
+
+.footer {
+    font-size: 1em;
+    font-weight: bold;
+    opacity: .25;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    transition: opacity 1s ease-in-out;
+    border-top: 2px solid darkgray;
+}
+
+/*small screens*/
+@media only screen and (max-width: 1023px) {
+    h1 {
+        font-size: 2.25em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+}

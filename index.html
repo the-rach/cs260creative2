@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creative Project 2</title>
+    <link rel="stylesheet" href="/styles.css">
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+</head>
+<body>
+
+    <h1>Chuck Norris Jokes</h1>
+    <p>Welcome to all the Chuck Norris Jokes you could ever want! Select the type of joke you would like below.</p>
+    <hr>
+    <form class = "form">
+        <label>Click the button to get a random joke...</label>
+        <input id="randomJokeButton" type="submit" value="Random Joke"/>
+    </form>
+    <p></p>
+    <form class = "form">
+        <label>If you want more than one random joke, specify how many and click the button...</label>
+        <input id="manyRandomNum" type="text"/>
+        <input id="manyRandomButton" type="submit" value="Many Random Jokes"/>
+    </form>
+    <form class = "form">
+        <label>Enter a name to replace "Chuck Norris" with in a Chuck Norris joke and click the button... (Ex. "firstname lastname")</label>
+        <div id = manyForms>
+            <input id = "newName" type = "text"/>
+            <input id = "newNameButton" type = "submit" value = "Many Random Jokes"/>
+        </div>
+    </form>
+    <hr>
+    <p></p>
+    <div>
+        <div class = allJokeResults id = jokeResults></div>
+        <div id = manyJokesResults class = allJokeResults></div>
+        <div id = newNameJokeResult class = allJokeResults></div>
+    </div>
+    <div id = "chuck-image">
+        <img src = "chuck2.png" alt = "chuck-norris">
+    </div>
+
+    <script text="type/javascript" src="script.js">
+    </script>
+
+    <div class = "footer">
+        <p>Contact me! <a href="https://github.com/the-rach">Github Classroom Account</a></p>
+    </div>
+
+</body>
+</html>
